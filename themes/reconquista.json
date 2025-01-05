@@ -1,0 +1,161 @@
+{
+	"name": "reconquista",
+	"semanticHighlighting": true,
+	"colors":
+	{
+		"editor.background": "#131313",
+		"editor.foreground": "#c8c8c8",
+		"activityBarBadge.background": "#ff2164",
+		"sideBarTitle.foreground": "#bbbbbb"
+	},
+	"semanticTokenColors":
+	{
+		"keyword": "#ff446d",
+		"modifier": "#ff446d",
+		"class": "#ffcb6b",
+		"typeParameter":
+		{
+			"foreground": "#ffa734",
+			"fontStyle": "italic"
+		},
+		"interface": "#ffa734",
+		"struct": "#ffa734",
+		"enum": "#ffa734",
+		"type": "#ffa734",
+		"number": "#a98aff",
+		"string": "#a98aff",
+		"variable":
+		{
+			"foreground": "#c8c8c8"
+		},
+		"identifier": "#c8c8c8",
+		"enumMember": "#c8c8c8",
+		"function": "#c8c8c8",
+		"property": "#c8c8c8",
+		"method": "#c8c8c8",
+		"operator": "#c8c8c8"
+	},
+	"tokenColors":
+	[
+		{
+			"name": "keywords",
+			"scope":
+			[
+				"keyword",
+				"keyword.control",
+				"keyword.operator.logical.python",
+				"storage.type",
+				"storage.modifier",
+				"support.variable.magic",
+				"support.function.magic",
+
+				"variable.language.special.self"
+			],
+			"settings":
+			{
+				"foreground": "#ff446d"
+			}
+		},
+		{
+			"name": "types",
+			"scope":
+			[
+				"meta.class"
+			],
+			"settings":
+			{
+				"foreground": "#ffa734"
+			}
+		},
+		{
+			"name": "identifiers",
+			"scope":
+			[
+				"support.function.swift",
+
+				"entity.name.function"
+			],
+			"settings":
+			{
+				"foreground": "#c8c8c8"
+			}
+		},
+		{
+			"name": "punctuation",
+			"scope":
+			[
+				"keyword.operator",
+
+				"punctuation",
+
+				"source.swift"
+			],
+			"settings":
+			{
+				"foreground": "#747474"
+			}
+		},
+		{
+			"name": "macros",
+			"scope":
+			[
+				"support.constant.platform.os.swift",
+				"punctuation.definition.preprocessor.swift",
+				"keyword.other.condition.swift",
+				"keyword.control.preprocessor.conditional.swift"
+			],
+			"settings":
+			{
+				"foreground": "#e355ff"
+			}
+		},
+		{
+			"name": "anchors",
+			"scope":
+			[
+				"punctuation.section.embedded.begin.swift",
+				"punctuation.section.embedded.end.swift source.swift",
+
+				"constant.character.format"
+			],
+			"settings":
+			{
+				"foreground": "#e355ff"
+			}
+		},
+		{
+			"name": "literals",
+			"scope":
+			[
+				"string",
+				"punctuation.definition.string",
+				"constant"
+			],
+			"settings":
+			{
+				"foreground": "#a98aff"
+			}
+		},
+		{
+			"name": "comments",
+			"scope": [
+				"comment",
+				"punctuation.definition.comment"
+			],
+			"settings": {
+				"foreground": "#666666"
+			}
+		},
+
+		{
+			"name": "invalid",
+			"scope": [
+				"invalid",
+				"invalid.illegal"
+			],
+			"settings": {
+				"foreground": "#FF5370"
+			}
+		}
+	]
+}
