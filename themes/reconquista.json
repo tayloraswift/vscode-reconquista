@@ -55,6 +55,7 @@
 			[
 				"keyword",
 				"keyword.control",
+				"keyword.operator.new",
 				"keyword.operator.logical.python",
 				"storage.type",
 				"storage.modifier",
